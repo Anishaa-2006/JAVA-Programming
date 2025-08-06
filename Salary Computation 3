@@ -1,0 +1,33 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scr = new Scanner(System.in);
+        int sal=12000;
+        double Hra, Da,grosssalary;
+        if(sal<15000){
+            Da=0.90*sal;
+            Hra=0.15*sal;
+        }
+        else  {
+            Hra=5000;
+            Da=0.90*sal;
+        }
+        
+           grosssalary=sal+Hra+Da;
+            
+         System.out.printf("%.2f",grosssalary);
+        
+        
+        
+        
+
+        
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
