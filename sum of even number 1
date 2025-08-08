@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scr= new Scanner(System.in);
+        int n1= scr.nextInt();
+        int n2= scr.nextInt();
+        int sum=0;
+        if (n1 > 0 && n1 < 30 && n2 > 0 && n2 < 30 && n1 < n2) {
+            for (int i = n1; i <= n2; i++) {
+                if (i % 2 == 0) {  
+                    sum = sum+i;}
+            }
+                    System.out.println(sum);
+                }
+            
+            else{
+                System.out.println("Invalid Input");
+            }
+    }
+}
