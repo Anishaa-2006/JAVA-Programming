@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scr= new Scanner(System.in);
+        String str1= scr.nextLine();
+        String str2= scr.nextLine();
+        String str3= str1.trim()+str2.trim();
+        System.out.println(str3);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
