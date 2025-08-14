@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scr = new Scanner(System.in);
+        String str = scr.nextLine();
+        char array[]= str.toCharArray();
+        if (str.matches("\\d+")) {
+             System.out.println("only digits");
+         }
+        else{
+            System.out.println("no");
+        }
+            
+            
+            /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
